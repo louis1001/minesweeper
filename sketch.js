@@ -19,7 +19,7 @@ function setup(){
   createCanvas(600, 600)
   textFont(roundFont)
 
-  theGame = new Game(createVector(30, 30), 20)
+  theGame = new Game(createVector(15, 15), 30)
   noLoop()
   draw()
 }
